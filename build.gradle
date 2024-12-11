@@ -95,7 +95,7 @@ task copyAllDependecies(type: Copy) {
 jar.dependsOn copyAllDependecies
 
 war {
-    archiveName "dmdev.war"
+    archiveFileName  'dmdev.war'
 }
 
 // buildSrc --- id 'custom'
